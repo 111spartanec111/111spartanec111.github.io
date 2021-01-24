@@ -1,0 +1,211 @@
+* {
+    font-family: 'Roboto' , sans-serif;
+}
+header {
+    position: relative;
+    height: 50px;       /* * */
+    
+}
+
+nav {
+    position: fixed;    /* * */
+    width: 100%;        /* * */
+    height: 50px;
+    background: #212121;
+    z-index: 2; /* * */
+}
+
+.menu {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    position: absolute;
+    top: 50px; /* * */
+    width: 100%;
+    height: 87px;
+    background-color: rgba(0, 0, 0, .6); /* Прозрачность фона блока */
+    
+}
+
+.subheader .subheader_logo {
+    display: block; /* Ссылка это строчный элемент, а что бы применилось margin top необходимо сделать блочным элементом! */
+    max-width: 100%;
+    margin-top: 16px;
+    
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    font-size: 13px;
+    font-weight: 100;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.subheader .subheader_call {
+    margin-top: 21px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: right;
+}
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: right;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.11);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/fon1.png') center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+    /* transform: translateY(-87px);
+    z-index: 1; */
+}
+
+.promo .promo_header {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+}
+
+.promo .promo_subheader {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 115px auto 0 auto; 
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.work {
+    /* padding: 71px 0 65px 0; */
+    min-height: 900px;
+    padding-top: 71px;
+    padding-bottom: 65px;
+}
+
+.work .work_preim {
+    margin: 0 auto;
+    height: 24px;
+    width: 112px;
+    padding: 5px 12px;
+    background-color: #000000;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+            
+}
+
+.work .work_prich {
+    margin-bottom: 0;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center;
+    margin-top: 38px;
+}
+
+.work .reasons_block {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Если убрать, то все кружки будут ровно */
+    margin-top: 35px;
+}
+
+.work .reasons_block .work_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    
+}
+
+.work .reasons_block .reasons_descr {
+    width: 340px;                /* ширина текста */
+}
+
+.work .work_text1 {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #1eacc7;
+}
+
+.work .work_text2 {
+    font-size: 15px;
+    font-weight: 300;
+    color: #202020;
+    line-height: 21px;
+}
